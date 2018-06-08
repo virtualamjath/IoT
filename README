@@ -1,0 +1,11 @@
+****** Procedure to run the code *********
+
+1. If we do not have node already installed in the system, install node with  node-v8.11.1-x64.msi  ( open the windows command promt and type "node" and hit enter.  if it shows that the command is not recognized as internal or external command, then node is not installed)  
+2. After making sure node is installed, open windows command prompt and go to the folder where you have downloaded the provided zip package 
+3. run the following commands in command prompt from the path of extracted zip file
+   a) npm install azure-iot-device-mqtt azure-iot-device 
+   b) open the EdgeToCloud.js file in the folder. Go to line number 27 and give the relevant websocket IP address and port number.
+      var ws = new WebSocket('ws://10.10.96.39:2012/');  /** replace with the ip address of the websocket and port to fetch from PLC ******/
+   c) run the following command:   node EdgeToCloud.js 
+
+Done ! It will start fetching the data from websocket and start sending to cloud . If websocket is not present it will through error but it will wait until a response is received from the websocket.

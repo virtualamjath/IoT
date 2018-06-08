@@ -1,0 +1,8 @@
+{
+  "DeviceId": "forumDevice3",
+  "IoTHubConnectionString": "HostName=forumiothub.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAccessKey=XuTAuVOFIo5LExR+CcGuPS72HqUnDcbcrmo/KVNfvcc=",
+  "websocketAddress": "ws://localhost:2012/",
+  "HostName": "forumiothub.azure-devices.net",
+  "DeviceSharedAccessKey": "1f+1fUIR1R1dlM8Gh9yDxyNZEk05zqW6O49wwx/INnY=",
+  "DeviceConnectionString": "HostName=forumiothub.azure-devices.net;DeviceId=forumDevice3;SharedAccessKey=1f+1fUIR1R1dlM8Gh9yDxyNZEk05zqW6O49wwx/INnY="
+}
